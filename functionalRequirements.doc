@@ -1,0 +1,53 @@
+NOW IMPLEMENTATIONS
+
+Nothing
+
+
+
+
+
+FUTURE IMPLEMENTATIONS
+- Make sure to include four pictures of the same product
+- View product modal for admin
+- Use ajax for admin
+- Add item in wishlist to cart one at a time - Wishlist page
+- Forget password functionality
+- Change password by email verification - Account page
+- Send email notifications (adds a product to cart or wishlist, sends a contact message)
+- Design an about page
+- Handle all payment transacts with paystack or similar third party...
+- if user not filled billing details don't place order
+- Google authentication
+- Registering with email verification
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# CHECK OUT 
+# I am to read up data normalization in sql
+# Check out for dummy email used in node mailer
+# How to create an api in php

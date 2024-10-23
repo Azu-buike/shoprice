@@ -1,0 +1,172 @@
+
+.profileInformation  {
+    border: 1px solid rgba(156, 156, 156, 0.342);
+    width: 100%;
+    padding: 25px 35px;
+    border-radius: 20px;
+}
+.editProfile {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: orangered;
+    margin-bottom: 30px;
+}
+.profileInfoSectionOne div, .profileInfoSectionTwo div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+}
+.profileDetails {
+    width: 70%;
+}
+
+.profileInfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.profileInfoSectionOne, .profileInfoSectionTwo{
+    width: 50%;
+    height: 100%;
+}
+label {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.profileInformation input {
+    height: 40px;
+    padding: 15px;
+    background-color: rgba(156, 156, 156, 0.205);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+.profileInformation input:focus {
+    outline: 1px solid orangered;
+}
+.passwordChange {
+    display: flex;
+    flex-direction: column;
+}
+.passwordChange input{
+    margin-bottom: 15px;
+    width: 50%;
+}
+.profileButtons {
+    display: flex;
+    justify-content: flex-end;
+}
+.profileButtons button {
+    padding: 15px 35px;
+    font-size: .8rem;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.cancelBtn {
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+.cancelBtn:hover {
+    border: 1px solid black;
+    background-color: white;
+}
+.saveChangesBtn {
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+}
+.saveChangesBtn:hover {
+    background-color: white;
+    color: orangered;
+}
+
+
+
+
+
+
+
+.profile-container {
+    text-align: center;
+    width: 30%;
+}
+
+.profile-picture {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 10px;
+    border: 3px solid rgba(128, 128, 128, 0.479);
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#profilePictureInput {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    background-color: rgba(156, 156, 156, 0.205);
+    border-radius: 7px;
+    font-size: .9rem;
+}
+
+#uploadButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#uploadButton:hover {
+    background-color: #0056b3;
+}
+
+.profileSecCtn {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width:768px) {
+    .profileInfo {
+        flex-direction: column;
+    }
+    .profileInfoSectionOne{
+        width: 100%;
+    }
+    .profileInfoSectionTwo{
+        width: 100%;
+    }
+    .profileSecCtn {
+        flex-direction: column;
+    }
+    .profileDetails {
+        width: 100%;
+    }
+    .profileInformation  {
+        padding: 35px 25px;
+    }
+    .profile-container {
+        width: 100%;
+    }
+    .editProfile {
+        text-align: center;
+    }
+} 
+
+
+
