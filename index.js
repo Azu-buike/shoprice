@@ -139,7 +139,7 @@ server.get("/account", async (req, res) => {
 
 //----------  GET ADMIN PROFILE ROUTE ----------------
 server.get("/adminProfile", async (req, res) => {
-    userNotLoggedIn(req, res); // Check if user is logged in
+    adminNotLoggedIn(req, res); // Check if user is logged in
     try {
         // Decrypt the password from the cookie
         const password = req.cookies.reg_admin;
