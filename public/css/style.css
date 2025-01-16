@@ -24,7 +24,7 @@
     position: relative;
 }
 .jumbotron.first {
-    background-color: rgb(255, 136, 0);
+    background-color: green;
 }
 .jumbotron.second {
     background-color: black;
