@@ -18,7 +18,7 @@ main {
     margin-bottom: 30px;
 }
 .welcome span {
-    color: orangered;
+    color: green;
     margin-left: 5px;
 }
 
@@ -98,13 +98,13 @@ main {
     margin-bottom: 20px;
 }
 .manageAccount a:hover{
-    color: orangered
+    color: green
 }
 .myOrders {
     margin-bottom: 20px;
 }
 .myOrders a:hover{
-    color: orangered
+    color: green
 }
 
 
@@ -117,7 +117,7 @@ main {
 .editProfile {
     font-size: 1.4rem;
     font-weight: 500;
-    color: orangered;
+    color: green;
     margin-bottom: 25px;
 }
 .profileInfoSectionOne div {
@@ -194,13 +194,13 @@ label {
     background-color: white;
 }
 .saveChangesBtn {
-    background-color: orangered;
+    background-color: green;
     color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
 }
 .saveChangesBtn:hover {
     background-color: white;
-    color: orangered;
+    color: green;
 }
 
 
