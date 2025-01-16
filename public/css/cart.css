@@ -121,14 +121,14 @@ main {
     margin-right: 10px;
     color: white;
     font-weight: 600;
-    background-color: orangered;
-    border: 1px solid orangered;
+    background-color: green;
+    border: 1px solid green;
     border-radius: 5px;
 }
 .cartAmount ~ button:nth-child(2):hover{
-    color: orangered;
+    color: green;
     background-color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
     cursor: pointer;
 }
 .cartAmount ~ button:nth-child(3){
@@ -165,7 +165,7 @@ main {
     border: 1px solid grey;
 }
 .cartAmount button:nth-child(3){
-    background-color: orangered;
+    background-color: green;
     color: white;
 }
 
@@ -233,9 +233,9 @@ main {
     border-radius: 5px;
 }
 .applyCoupon {
-    background-color: orangered;
+    background-color: green;
     color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
 }
 .cartTotal {
     border: 2px solid rgba(0, 0, 0, 0.3);
@@ -263,16 +263,16 @@ main {
 }
 
 .proceed {
-    background-color: orangered;
+    background-color: green;
     color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
     text-align: center;
     margin-top: 20px;
     width: 100%;
 }
 .proceed:hover {
     background-color: white;
-    color: orangered;
+    color: green;
 }
 
 #productsSection {
