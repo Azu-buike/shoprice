@@ -32,9 +32,9 @@ main {
 }
 
 .backToHome {
-    background-color: orangered;
+    background-color: green;
     color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
     padding: 15px 40px;
     font-size: .8rem;
     outline: none;
@@ -44,7 +44,7 @@ main {
 }
 .backToHome:hover {
     background-color: white;
-    color: orangered;
+    color: green;
 }
 
 
