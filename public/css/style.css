@@ -84,7 +84,7 @@
     align-items: center;
 }
 .dotCtn .active{
-    background-color: orangered;
+    background-color: green;
     border: none;
 }
 .dot {
