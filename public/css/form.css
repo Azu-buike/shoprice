@@ -50,7 +50,7 @@ form {
     width: 140px;
 }
 h1 {
-    color: orangered;
+    color: green;
     margin-bottom: 25px;
     text-align: center;
     font-size: 1.3rem;
@@ -86,7 +86,7 @@ button {
     width: 100%;
     height: 40px;
     color: white;
-    background-color: orangered;
+    background-color: green;
     outline: none;
     border: none;
     margin-bottom: 25px; 
@@ -150,7 +150,7 @@ span {
     font-size: .9rem;
 }
 .haveAccount a {
-     color: orangered;
+     color: green;
      text-decoration: none;
 }
 
@@ -189,7 +189,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: orangered; /* Change to your preference */
+    background-color: green; /* Change to your preference */
     justify-content: center;
     align-items: center;
 }
