@@ -29,7 +29,7 @@ hr {
     align-items: center;
     width: 45px;
     height: 45px;
-    background-color: orangered;
+    background-color: green;
     border-radius: 50%;
     margin-right: 15px;
 }
@@ -39,7 +39,7 @@ hr {
     align-items: center;
     width: 45px;
     height: 45px;
-    background-color: orangered;
+    background-color: green;
     border-radius: 50%;
     margin-right: 15px;
 }
@@ -95,13 +95,13 @@ textarea {
     border-radius: 5px;
 }
 .sendMessage {
-    background-color: orangered;
+    background-color: green;
     color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
 }
 .sendMessage:hover {
     background-color: white;
-    color: orangered;
+    color: green;
 }
 
 
