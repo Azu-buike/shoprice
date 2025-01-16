@@ -105,12 +105,12 @@ header {
     cursor: pointer;
 }
 .dataCtn div:hover{
-    border: 1px solid orangered;
-    background-color: orangered;
+    border: 1px solid green;
+    background-color: green;
 }
 .activebox {
-    border: 1px solid orangered;
-    background-color: orangered;
+    border: 1px solid green;
+    background-color: green;
 }
 .wishlistIcon, .cartIcon {
     position: relative;
@@ -122,7 +122,7 @@ header {
     width: 25px;
     padding: 10px;
     height: 25px;
-    background-color: orangered;
+    background-color: green;
     position: absolute;
     top: -12px;
     right: -12px;
@@ -147,7 +147,7 @@ ul.menu{
     width: 200px;
     border-radius: 10px;
     background-color: rgb(243, 88, 32);
-    border: 1px solid orangered;
+    border: 1px solid green;
     display: none;
     top: 58px;
     right: 0;
@@ -165,7 +165,7 @@ ul.menu{
 #accountOverlay ul li:hover{
     background: hsla(0, 0%, 50%, 0.877);
     background: white;
-    color: orangered;
+    color: green;
     border-radius: 10px;
 }
 .logoutBtn {
@@ -207,7 +207,7 @@ ul.menu{
 
 .emptyText {
     font-size: 1.3rem;
-    color: orangered;
+    color: green;
     font-weight: bold;
 }
 
