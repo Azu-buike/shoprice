@@ -8,7 +8,7 @@
 .editProfile {
     font-size: 1.4rem;
     font-weight: 500;
-    color: orangered;
+    color: green;
     margin-bottom: 30px;
 }
 .profileInfoSectionOne div, .profileInfoSectionTwo div {
@@ -45,7 +45,7 @@ label {
     margin-bottom: 10px;
 }
 .profileInformation input:focus {
-    outline: 1px solid orangered;
+    outline: 1px solid green;
 }
 .passwordChange {
     display: flex;
@@ -78,13 +78,13 @@ label {
     background-color: white;
 }
 .saveChangesBtn {
-    background-color: orangered;
+    background-color: green;
     color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
 }
 .saveChangesBtn:hover {
     background-color: white;
-    color: orangered;
+    color: green;
 }
 
 
