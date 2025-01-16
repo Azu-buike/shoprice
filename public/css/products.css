@@ -15,7 +15,7 @@ body {
 }
 .overlay {
     width:20%; 
-    background-color: orangered; 
+    background-color: green; 
     color: white; 
     font-size: 1.2rem; 
     z-index: 5;
@@ -52,7 +52,7 @@ header form {
     display: flex;
 }
 header h2 {
-    color: orangered; 
+    color: green; 
     font-size:1.7rem;
 }
 main {
@@ -72,11 +72,11 @@ li img {
 }
 li:hover {
     background-color: white;
-    color: orangered;
+    color: green;
 }
 .active {
     background-color: white;
-    color: orangered;
+    color: green;
 }
 .search {
     width: 60%;
@@ -293,26 +293,26 @@ a {
 #addBtn {
     width: 180px;
     height: 35px;
-    background-color: orangered;
+    background-color: green;
     color: white;
     border: none;
     outline: none;
     cursor: pointer;
-    border: 1px solid orangered;
+    border: 1px solid green;
     font-size: .9rem;
     padding-left: 20px;
     border-radius: 20px;
 }
 
 #addBtn:hover {
-    border: 1px solid orangered;
+    border: 1px solid green;
     background-color: white;
-    color: orangered;
+    color: green;
 }
 .addProductBtn {
     width: 150px;
     padding: 13px;
-    background-color: orangered;
+    background-color: green;
     color: white;
     border: none;
     outline: none;
@@ -320,8 +320,8 @@ a {
 }
 .addProductBtn:hover {
     background-color: transparent;
-    border: 1px solid orangered;
-    color: orangered;
+    border: 1px solid green;
+    color: green;
 }
 .addProduct {
     display: flex;
@@ -371,7 +371,7 @@ a {
 .productDetail {
     font-size: 1.4rem;
     font-weight: 500;
-    color: orangered;
+    color: green;
     margin-bottom: 30px;
 }
 /* #editBtn {
@@ -390,7 +390,7 @@ a {
 
 /* #message {
     position: fixed;
-    background-color: orangered;
+    background-color: green;
     color: white;
     height: 40px;
     z-index: 3;
