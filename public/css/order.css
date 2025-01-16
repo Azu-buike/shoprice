@@ -194,8 +194,8 @@
 .increaseBtnModal{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: orangered;
-    border: 1px solid orangered;
+    background-color: green;
+    border: 1px solid green;
     color: white;
 }
 .buyNowModal{
@@ -204,13 +204,13 @@
     margin-right: 15px;
     color: white;
     font-weight: 600;
-    background-color: orangered;
-    border: 1px solid orangered;
+    background-color: green;
+    border: 1px solid green;
     border-radius: 5px;
     cursor: pointer;
 }
 .buyNowModal:hover{
-    color: orangered;
+    color: green;
     background-color: white;
 }
 .wishlistBtnModal{
