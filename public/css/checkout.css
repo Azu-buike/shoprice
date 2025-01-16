@@ -132,9 +132,9 @@ main {
 }
 
 .applyCoupon {
-    background-color: orangered;
+    background-color: green;
     color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
 }
 
 .placeOrder,
@@ -145,9 +145,9 @@ main {
     cursor: pointer;
     font-weight: 500;
     border-radius: 5px;
-    background-color: orangered;
+    background-color: green;
     color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
     margin-top: 10px;
 }
 .saveInfoBtn {
@@ -156,7 +156,7 @@ main {
 .placeOrder:hover,
 .saveInfoBtn:hover {
     background-color: white;
-    color: orangered;
+    color: green;
 }
 
 
@@ -316,15 +316,15 @@ main {
     margin-right: 10px;
     color: white;
     font-weight: 600;
-    background-color: orangered;
-    border: 1px solid orangered;
+    background-color: green;
+    border: 1px solid green;
     border-radius: 5px;
 }
 
 .cartAmount~button:nth-child(2):hover {
-    color: orangered;
+    color: green;
     background-color: white;
-    border: 1px solid orangered;
+    border: 1px solid green;
     cursor: pointer;
 }
 
@@ -366,7 +366,7 @@ main {
 }
 
 .cartAmount button:nth-child(3) {
-    background-color: orangered;
+    background-color: green;
     color: white;
 }
 
@@ -461,7 +461,7 @@ main {
 }
 
 #payAmountCtn p:nth-child(2) {
-    color: orangered;
+    color: green;
 }
 
 .payDetails p:nth-child(1) {
@@ -506,7 +506,7 @@ main {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid orangered;
+    border-bottom: 1px solid green;
 }
 
 .payOtherDetails {
@@ -516,7 +516,7 @@ main {
 }
 
 .payNow {
-    background-color: orangered;
+    background-color: green;
     width: 100%;
     border: none;
     color: white;
