@@ -59,6 +59,11 @@ server.get("/404", (req, res) => {
     res.render("404"); // Render the 404 page
 });
 
+//---------- GET TRACKING ROUTE ----------------
+server.get("/tracking", (req, res) => {
+    res.render("tracking"); //Render the addProduct page
+});
+
 //---------- GET ABOUT ROUTE ----------------
 server.get("/about", (req, res) => {
     userNotLoggedIn(req, res); // Check if user is logged in
