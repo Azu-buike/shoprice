@@ -1111,7 +1111,9 @@ server.post("/checkout", async (req, res) => {
             email: email,
             metadata: {
                 phoneNumber: phoneNumber,
-            }
+            },
+              callback_url: 'https://https://shoprice.vercel.app/tracking', // Specify the callback URL
+            
         });
         
         // If payment was initialized successfully, redirect the user to the authorization URL
