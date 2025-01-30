@@ -82,6 +82,10 @@ server.get("/contact", (req, res) => {
     userNotLoggedIn(req, res); // Check if user is logged in
     res.render("contact"); // Render the contact page
 });
+//---------- GET CONTACT ROUTE ----------------
+server.get("/vieworder", (req, res) => {
+    res.render("vieworder"); // Render the contact page
+});
 
 //---------- GET PRODUCTS ROUTE ----------------
 server.get("/products", async (req, res) => {
@@ -1117,7 +1121,7 @@ server.post("/checkout", async (req, res) => {
             metadata: {
                 phoneNumber: phoneNumber,
             },
-              callback_url: 'https://https://shoprice.vercel.app/tracking', // Specify the callback URL
+              callback_url: 'shoprice.vercel.app/tracking', // Specify the callback URL
             
         });
         

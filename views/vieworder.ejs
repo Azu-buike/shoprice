@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Progress Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet" />
+    <script
+        src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000"
+        data-border-radius="small"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen font-[&#39;Inter&#39;]">
+    <div class="max-w-8xl mx-auto px-4 py-16">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-3xl font-semibold text-gray-900 mb-12 text-center">Order Details</h1>
+
+
+            <div class="bg-white rounded-lg shadow-sm p-6">
+                <div class="flex items-center justify-between mb-6">
+                    <h2 class="text-lg font-semibold text-gray-900">Order #12345678</h2><span
+                        class="text-sm text-gray-500">March 15, 2024</span>
+                </div>
+                <div class="border-t border-gray-100 pt-6">
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="space-y-4">
+                            <h3 class="font-medium text-gray-900">Shipping Address</h3>
+                            <p class="text-sm text-gray-600">John Doe<br />123 Main St<br />New York, NY
+                                10001<br />United States</p>
+                        </div>
+                        <div class="space-y-4">
+                            <h3 class="font-medium text-gray-900">Payment Method</h3>
+                            <p class="text-sm text-gray-600">Visa ending in 4242<br />Expiry: 12/25</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <h3 class="font-medium text-gray-900 mb-4">Order Items</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between py-4 border-b border-gray-100">
+                            <div class="flex items-center"><img src="https://placehold.co/80x80" alt="Product"
+                                    class="w-20 h-20 object-cover rounded-lg" />
+                                <div class="ml-4">
+                                    <h4 class="font-medium text-gray-900">Product Name</h4>
+                                    <p class="text-sm text-gray-500">Color: Black, Size: M</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <p class="font-medium text-gray-900">$99.00</p>
+                                <p class="text-sm text-gray-500">Qty: 1</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between py-4 border-b border-gray-100">
+                            <div class="flex items-center"><img src="https://placehold.co/80x80" alt="Product"
+                                    class="w-20 h-20 object-cover rounded-lg" />
+                                <div class="ml-4">
+                                    <h4 class="font-medium text-gray-900">Product Name</h4>
+                                    <p class="text-sm text-gray-500">Color: White, Size: L</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <p class="font-medium text-gray-900">$79.00</p>
+                                <p class="text-sm text-gray-500">Qty: 1</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 border-t border-gray-100 pt-6">
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm text-gray-600">
+                            <span>Subtotal</span><span>$178.00</span></div>
+                        <div class="flex justify-between text-sm text-gray-600"><span>Shipping</span><span>$5.00</span>
+                        </div>
+                        <div class="flex justify-between text-sm text-gray-600"><span>Tax</span><span>$14.24</span>
+                        </div>
+                        <div class="flex justify-between font-medium text-gray-900 pt-4">
+                            <span>Total</span><span>$197.24</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
