@@ -1121,7 +1121,7 @@ server.post("/checkout", async (req, res) => {
             metadata: {
                 phoneNumber: phoneNumber,
             },
-              callback_url: 'shoprice.vercel.app/tracking', // Specify the callback URL
+              callback_url: 'https://shoprice.vercel.app/tracking', // Specify the callback URL
             
         });
         
